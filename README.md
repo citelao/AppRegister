@@ -7,6 +7,14 @@ This sample app exercises the `PackageManager` APIs to register packages:
 
 ## Usage
 
+First, stage a package:
+
+```pwsh
+Add-AppxPackage -Stage "c:\path\to\some\app.msixbundle"
+```
+
+### Actual usage
+
 Default, plural API (`RegisterPackageByFullNameAsync`):
 
 ```pwsh
